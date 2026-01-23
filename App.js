@@ -1,7 +1,9 @@
 // Implicit return using curly braces
 const App = () => (
   <div>
-    <RandomChoice choices={["red", "green", "yellow"]} />
+    <Alert>
+      <RandomChoice choices={["red", "green", "yellow"]} />
+    </Alert>
     <Animal name="Stevie Chick" species="chicken" emoji="🐔" isCute={true} />
     <Animal name="Patrick" species="red fox" emoji="🦊🦊" isCute={false} />
     <RandomNum />
